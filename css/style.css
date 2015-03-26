@@ -1,0 +1,89 @@
+
+html, body {
+    margin: 20px;
+}
+
+.BookList, .AuthorsPage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: stretch;
+    min-width: 400px;
+}
+
+.Book {
+    cursor: pointer;
+    margin: 25px;
+}
+
+.name:hover {
+    color: grey;
+}
+
+.dropdownMenu {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.authors {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.author:hover {
+     color: grey;
+}
+
+.dropdown-toggle {
+    width: 0;
+    height: 0;
+    padding: 0;
+}
+
+.btn.btn-default.dropdown-toggle {
+    width: 0;
+    height: 0;
+    padding: 0;
+    display: block;
+}
+
+.thumbnail:hover {
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.Author {
+    cursor: pointer;
+    margin: 25px;
+}
+
+a:link {
+    text-decoration: none !important;
+}
+
+a:visited {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a {
+    color: black !important;
+}
+
+a:active {
+    text-decoration: none !important;
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: stretch;
+    min-width: 400px;
+}
